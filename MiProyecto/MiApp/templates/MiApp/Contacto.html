@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="{% static 'Mi pagina/CSS/TheContact.css' %}">
+</head>
+<body style="background-color: gray;">
+    <header>
+        <nav>
+            <img src="{% static 'imagenes mp/EsCine.webp' %}" alt="Logo" class="logo">
+            <ul>
+                <li><a href="/Mi pagina/index.html">Inicio</a></li>
+                <li><a href="#""> Contacto </a></li>
+                <li><a href="/Mi pagina/about.html"> About </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="nombre">
+        <p>Nombre y apellidos:</p>
+        <input type="text" size="40" id="Nombre" name="Nombre">
+    </div>
+
+    <div class="Correo">
+        <p>Correo:</p>
+        <input type="email" size="40" name="correo" id="correo">
+    </div>
+
+    <div class="mensaje">
+        <p>Mensaje que desea enviar:</p>
+        <textarea rows="10" cols="60"></textarea>
+        <br />
+        <input type="submit" id="enviarMen" value="Enviar mensaje" name="EnviarMen">
+    </div>
+
+    <footer>
+        <h3>© Todos los derechos reservados a Universal Studios</h3>
+        <h4>Privacidad - Términos y servicios - Aviso legal</h4>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="{% static 'Mi pagina/CSS/ElAbout.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="{% static 'imagenes mp/EsCine.webp' %}" alt="Logo" class="logo">
+            <ul>
+                <li><a href="/Mi pagina/index.html"> Inicio </a></li>
+                <li><a href="/Mi pagina/Contacto.html"> Contacto </a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="contenedor">
+        <img src="{% static 'imagenes mp/Yo.webp' %}" alt="Mi foto" class="Yo">
+
+        <div class="SobreMi">
+            <h1>Sobre mí:</h1>
+            <p style="font-size: 30px;">Yo soy André Sebastián Somilleda Mendoza. Nací en un pueblo llamado Huamantla, que está ubicado en el estado de Tlaxcala. Soy apenas un aficionado al cine, aunque ya veo películas desde que tengo memoria, gracias a mis papás, más que nada a mi papá, que sí es cinéfilo desde que era adolescente.</p>
+            <h2>Mis películas favoritas son:</h2>
+            <ul>
+                <li>1.- Isla de perros</li>
+                <li>2.- Amores perros</li>
+                <li>3.- Full Metal Jacket</li>
+                <li>4.- Interestelar</li>
+                <li>5.- Django sin cadenas</li>
+            </ul>
+        </div>
+    </div>
+    <br/>
+    <footer>
+        <h3>© Todos los derechos reservados a Universal Studios</h3>
+        <h4>Privacidad - Términos y servicios - Aviso legal</h4>
+    </footer>
+</body>
+</html>

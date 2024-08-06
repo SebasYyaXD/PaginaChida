@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(177, 176, 176);
+}
+
+nav {
+    background-color: darkblue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 80px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+footer{
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+/* Lo que tiene que llevar el About */
+
+.contenedor{
+
+    display: flex;
+    justify-content: center;
+}
+
+.Yo{
+    width: auto;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.SobreMi{
+    margin-left: 30px;
+
+}
